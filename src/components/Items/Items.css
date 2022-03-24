@@ -1,3 +1,11 @@
-.ItmesList{
+.Container-ItemList{
+    display: flex;
+    justify-content: center;
     
+}
+
+.container-Cards{
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
 }
