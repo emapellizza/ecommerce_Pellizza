@@ -7,12 +7,13 @@ import "./NavBar.css"
 function NavBar() {
     return(
         <header >
-           <div>
-               <img src="/public/Img/LogoRents.png" className="NavBarLogo"/>
+           <div className='NavBar-div'>
+               <img src="/public/Img/LogoRents.png" className="NavBarLogo" alt=""/>
                </div>
    
             
           <div className='NavBar-button'>
+              
               <button>Home</button> 
               <button>Mi Perfil</button> 
               <button>Nosotros</button> 
