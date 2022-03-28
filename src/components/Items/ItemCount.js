@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Items.css'
 
-export default function Stock ({data}){
+function Stock ({data}){
     //data es el stock total disponible 
     data = 5;
    
@@ -30,3 +30,5 @@ export default function Stock ({data}){
         </div>
     )
 }
+
+export default Stock

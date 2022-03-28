@@ -1,10 +1,10 @@
 //llama a itemj.s
 import React,{useState,useEffect} from "react"
-import Item from "./Item"
+import Item from "../Item"
 
 
 
-const ItemList =()=> {
+function ItemList () {
 
     const mockProducts=[
         {

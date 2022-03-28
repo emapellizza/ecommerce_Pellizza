@@ -1,7 +1,7 @@
 //detalle breve del porducto que luego te lleva a el detalle del producto
 import React from "react"
 import "./Items.css"
-import ItemCount from "./ItemCount"
+
 
 function Items ({data}) {
 
@@ -13,10 +13,6 @@ function Items ({data}) {
             <div>
                 <h2>{title}</h2>
                 <p>Price: {price}</p>
-            </div>
-
-            <div>
-                <ItemCount/>
             </div>
             
         </div>
