@@ -1,0 +1,11 @@
+.Item-List{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+
+}
+.Container-ItemList{
+    display: flex;
+    justify-content: center;
+    
+}

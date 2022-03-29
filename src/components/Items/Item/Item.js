@@ -7,7 +7,7 @@ function Items ({data}) {
 
     const {id,title,price,pictureURL} = data
     return(
-        <div>
+        <div className="Item">
             <img src={`./${pictureURL}`} alt="house"/>
 
             <div>

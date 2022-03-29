@@ -1,6 +1,7 @@
 //llama a itemj.s
 import React,{useState,useEffect} from "react"
-import Item from "../Item"
+import Item from "../Item/Item"
+import "./ItemList.css"
 
 
 
@@ -10,28 +11,28 @@ function ItemList () {
         {
         id: 1,
         title:'House 1',
-        price: 'u$d798556',
+        price: 'U$D 798556',
         pictureURL:'House1.jpg'
         },
 
         {
         id: 2,
         title:'House 2',
-        price: 'u$d898654',
+        price: 'U$D 898654',
         pictureURL:'House2.jpg'
         },
         
         { 
         id: 3,
         title:'House 3',
-        price: 'u$d412321',
+        price: 'U$D 412321',
         pictureURL:'House3.jpg'
         },
         
         {
         id: 4,
         title:'House 4',
-        price: 'u$d123512',
+        price: 'U$D 123512',
         pictureURL:'House4.jpg'
         }
     ]
@@ -52,7 +53,7 @@ function ItemList () {
     },[])
 
     return(
-        <div className="Item">
+        <div className="Item-List">
            
             {products.map( (product) =>{
                 const{id}= product

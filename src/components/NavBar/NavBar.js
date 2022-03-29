@@ -6,13 +6,13 @@ import "./NavBar.css"
 
 function NavBar() {
     return(
-        <header >
-           <div className='NavBar-div'>
-               <img src="/public/Img/LogoRents.png" className="NavBarLogo" alt=""/>
-               </div>
+        <div className='NavBar-div'>
+           <div className='NavBar-img'>
+               <img src="/public/Img/LogoRents.png"  alt="LogoRents"/>
+            </div>
    
             
-          <div className='NavBar-button'>
+          <div className='NavBar-buttons' >
               
               <button>Home</button> 
               <button>Mi Perfil</button> 
@@ -21,10 +21,10 @@ function NavBar() {
 
           </div>
   
-            <div>
+            <div >
                 <Cart/>
             </div>
-            </header>
+        </div>
         )
 }
 

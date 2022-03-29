@@ -1,16 +1,16 @@
 import React from 'react';
 import "./NavBar.css"
 
-class Cart extends React.Component {
-    render(){
+function Cart (){
+    
         return(
 
-         <div className="Widgets-cart">
-        <img src="/public/Img/Widgets/cart.png" className="img-headerCart"/>
+         <div className="CartWidget">
+            <img src="/public/Img/Widgets/cart.png" alt="CartWidget"/>
         
-            </div>
+        </div>
         )
-    }
+    
 
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import ItemDetail from './ItemDetail'
-import "../Items.css"
+import "./ItemDetail"
 
 
 function ItemDetailContainer (){
