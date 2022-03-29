@@ -11,9 +11,6 @@
     justify-content:flex-end;
     color: white;
 }
-.NavBar-img{
-    justify-content: flex-start;
-}
 
 .CartWidget{
     justify-content: flex-end;

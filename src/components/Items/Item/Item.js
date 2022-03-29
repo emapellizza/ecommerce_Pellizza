@@ -6,6 +6,7 @@ import "./Items.css"
 function Items ({data}) {
 
     const {id,title,price,pictureURL} = data
+    
     return(
         <div className="Item">
             <img src={`./${pictureURL}`} alt="house"/>
