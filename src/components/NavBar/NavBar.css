@@ -7,13 +7,22 @@
     padding: 2%;
 }
 .NavBar-buttons{
-    display: flex;
-    justify-content:flex-end;
-    color: white;
 }
 
 .CartWidget{
     justify-content: flex-end;
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+
 }
 
 

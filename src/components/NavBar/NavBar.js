@@ -1,7 +1,9 @@
 import React from 'react';
-import Cart from './CartWidget'
+import { Link } from 'react-router-dom';
 import "./NavBar.css"
-import LogoRents from "../../Img/LogoRents.png"
+import CartWidget from '../Cart/CartWidget'
+
+//import LogoRents from "../../Img/LogoRents.png"
 
 
 function NavBar() {
@@ -9,20 +11,34 @@ function NavBar() {
         <div className='NavBar-div'>
 
            <div className='Logo'>
-               <img src={LogoRents} alt="logo"/>
+               <img src="ruta" alt="logo"/>
             </div>
             
-          <div className='NavBar-buttons' >
-              
-              <button>Home</button> 
-              <button>Mi Perfil</button> 
-              <button>Nosotros</button> 
-              <button>Contactos</button> 
+            <div className='button-container'>
+                    <div className='NavBar-buttons' >
+                        <Link to={'/'}>Home</Link>
+                    </div>
 
-          </div>
-  
+                    <div className='NavBar-buttons' > 
+                        <Link to={'/profile'}>Mi Perfil</Link> 
+                    </div>
+
+                    <div className='NavBar-buttons' > 
+                        <Link to={'/us'}>Nosotros</Link> 
+                    </div>
+
+                    <div className='NavBar-buttons' > 
+                        <Link to={'/contact'}>Contactos</Link> 
+                    </div>
+
+                    <div className='NavBar-buttons' >
+                        <Link to={'/cart'}>Carrito</Link>
+                    </div>
+              
+                </div>
+                
             <div >
-                <Cart/>
+                <CartWidget/>
             </div>
             
         </div>
