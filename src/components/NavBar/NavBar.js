@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "./NavBar.css"
 import CartWidget from '../Cart/CartWidget'
 
-//import LogoRents from "../../Img/LogoRents.png"
+//import LogoRents from "../../../public/Img/LogoRents.png"
 
 
 function NavBar() {
@@ -11,7 +11,7 @@ function NavBar() {
         <div className='NavBar-div'>
 
            <div className='Logo'>
-               <img src="ruta" alt="logo"/>
+               <img src= "../LogoRents.png" alt="logo"/>
             </div>
             
             <div className='button-container'>

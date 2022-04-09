@@ -18,6 +18,7 @@ function App() {
       <Routes>
         <Route path="*" element={<PageNotFound/>}/>
         <Route path="/" element={<HomePage/>}/>
+        <Route path="/item" element="./components/Items/ItemDetail/ItemDetail.js"/>
         <Route path="/product/:id" element={<DetailPage/>}/>
         <Route path="/cart" element={<CartPage/>}/>
       </Routes>

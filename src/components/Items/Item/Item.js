@@ -5,7 +5,7 @@ import "./Items.css"
 
 function Items ({data}) {
 
-    const {id,title,price,pictureURL} = data
+    const {id,title,price,category,pictureURL} = data
     
     return(
         <div className="Item">
@@ -13,6 +13,7 @@ function Items ({data}) {
 
             <div>
                 <h2>{title}</h2>
+                <h3>{category}</h3>
                 <p>Price: {price}</p>
             </div>
             

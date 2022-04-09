@@ -2,7 +2,7 @@
 import React,{useState,useEffect} from "react"
 import Item from "../Item/Item"
 import "./ItemList.css"
-import MockProducts from "../../MockProducts.js"
+import MockProducts from "../../../Utils/MockProducts.js"
 
 
 function ItemList () {
@@ -13,7 +13,7 @@ function ItemList () {
     const getProducts =()=>{
         return new Promise((resolve,reject)=>{
             setTimeout (()=>{
-                resolve(MockProducts)
+               return resolve(MockProducts)
             },2000)
 
          })
